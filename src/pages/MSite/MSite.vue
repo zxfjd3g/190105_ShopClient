@@ -1,6 +1,6 @@
 <template>
  <div>
-   App
+   MSite
  </div>
 </template>
 
@@ -11,5 +11,5 @@
 
 <style lang="stylus" rel="stylesheet/stylus" scoped>
 
-</style>
 
+</style>
