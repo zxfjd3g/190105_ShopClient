@@ -1,12 +1,18 @@
 <template>
- <div>
-   App
- </div>
+  <div>
+    <router-view/>
+    <FooterGuide/>
+  </div>
 </template>
 
 <script type="text/ecmascript-6">
- export default {
- }
+  import FooterGuide from './components/FooterGuide/FooterGuide'
+
+  export default {
+    components: {
+      FooterGuide
+    }
+  }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus" scoped>
